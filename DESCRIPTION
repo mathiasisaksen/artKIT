@@ -1,0 +1,25 @@
+Package: artKIT
+Type: Package
+Title: Useful functions for creating visual/generative art
+Version: 0.1.0
+Author: Mathias Isaksen
+Maintainer: Mathias Isaksen <mathiasleanderi@gmail.com>
+Description: This package contains a set of functions that are useful
+    when creating visual/generative art. At the moment, most of the package
+    deals with polygons/shapes, exposing functions that allows the user to
+    do boundary interpolation, corner rounding, deformation and geometric subdivison.
+    There are also functions for rescaling values, and creating images based on
+    functions that map pixel locations to colors.
+    Vectorization is used throughout the package, leading to efficient code.
+    The package is a work in progress, and will be updated as soon as more
+    functions are ready.
+License: MIT + file LICENSE
+BugReports: https://github.com/mathiasisaksen/artKIT/issues
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp, lpSolve, png, grDevices
+Suggests: ggplot2
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+NeedsCompilation: yes
+Packaged: 2021-07-31 13:46:26 UTC; mathias
